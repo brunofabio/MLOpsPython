@@ -1,7 +1,4 @@
 # Continuous Integration (CI) pipeline that orchestrates the training, evaluation, registration, deployment, and testing of the diabetes_regression model.
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'build'
 
 resources:
   containers:
